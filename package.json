@@ -16,7 +16,7 @@
     "test:coverage": "jest --coverage",
     "test:watch": "jest --watch",
     "test": "jest",
-    "postinstall": "npm i ./packages/buffer --no-save"
+    "postinstall": "npm i ./packages/buffer --no-save --omit=dev"
   },
   "files": [
     "lib",
